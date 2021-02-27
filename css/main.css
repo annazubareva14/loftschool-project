@@ -8,7 +8,7 @@ body {
     color: white;
     font-size: 16px;
     line-height: 1.42;
-    background: url(../img/background/hero.jpg) center top no-repeat, url(../img/background/bottom-pic.jpg) center bottom 300px no-repeat, #17191C;
+    
 }
 
 
@@ -26,13 +26,17 @@ ul li {
 }
 
 .wrapper {
+    background: url(../img/background/hero.jpg) center top no-repeat, url(../img/background/bottom-pic.jpg) center bottom 300px no-repeat, #17191C;
+}
+
+.container {
     width: 1150px;
     margin: 0 auto;
 }
 
 .header {
     position: relative;
-    height: 120px;
+    min-height: 120px;
 }
 
 .logo {
@@ -46,7 +50,6 @@ ul li {
     left: 442px;
     top: 40px;
 }
-
 
 .nav__item {
     display: inline-block;
@@ -71,7 +74,6 @@ ul li {
     text-align: right;
     right: 0;
     top: 27px;
-    width: 191px;
     line-height: 1.1;
 }
 
@@ -90,7 +92,6 @@ ul li {
     font-display: right;
 }
 
-
 .preview {
     text-align: center;
     margin: 108px 0 233px;
@@ -99,7 +100,7 @@ ul li {
 .preview__title {
     display: inline;
     font-weight: 800;
-    width: 776px;
+    min-width: 776px;
     font-size: 72px;
     text-transform: uppercase;
 }
@@ -110,8 +111,7 @@ ul li {
 }
 
 .button {
-    width: 195px;
-    height: 55px;
+    padding: 18px 55px;
     background: #FF5500;
     border: 0;
     border-radius: 35px;
@@ -138,12 +138,13 @@ ul li {
     display: inline-block;
     vertical-align: top;
     width: 362px;
-    height: 476px;
+    min-height: 476px;
     border-radius: 5px;
     background: white;
     color: black;
     font-size: 14px;
-    padding: 36px 24px 53px;
+    border: 5px solid transparent;
+    padding: 31px 19px 48px;
     margin-right: 23px;
 }
 
@@ -168,7 +169,6 @@ ul li {
 
 .offer__features-item {
     font-size: 16px;
-    margin-bottom: 25px;
     display: inline-block;
     width: 123px;
     margin-right: 57px;
@@ -183,15 +183,14 @@ ul li {
 }
 
 .offer__info {
-    padding-bottom: 29px;
+    margin: 25px 0 29px;
 }
 
 .offer__btn {
     background: white;
     border: 2px solid #FF5500;
     color: #FF5500;
-    width: 198px;
-    transition: 0.4s;
+    min-width: 198px;
 }
 
 .offer__btn:hover {
@@ -204,13 +203,18 @@ ul li {
     font-weight: 800;
     font-size: 36px;
     text-transform: uppercase;
-    padding-bottom: 51px;
+    margin-bottom: 51px;
 }
 
 .news__item {
+    width: 560px;
     display: inline-block;
     position: relative;
     margin-right: 22px;
+}
+
+.news__background {
+    width: 100%;
 }
 
 .news__item:last-child {
@@ -219,9 +223,8 @@ ul li {
 
 .news__content {
     position: absolute;
-    top: 252px;
-    width: 443px;
-    padding-left: 30px;
+    bottom: 15px;
+    padding: 30px 83px 15px 30px;
 }
 
 .news__content-date {
@@ -251,12 +254,18 @@ ul li {
 .paginator__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 20px;
+    margin-right: 5px;
     font-weight: bold;
-
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border-radius: 50%;
+    position: relative;
+    line-height: 32px;
 }
 
-.paginator__item--active .paginator__link {
+
+.paginator__item--active .paginator__link, .paginator__item:hover {
     display: inline-block;
     vertical-align: middle;
     width: 32px;
@@ -279,7 +288,7 @@ ul li {
     background: #FFFFFF;
     color: black;
     border-radius: 5px;
-    padding-left: 81px;
+    padding: 70px 81px;
     margin: 97px 0 53px -136px;
 }
 
@@ -287,8 +296,7 @@ ul li {
     font-size: 36px;
     font-weight: 800;
     text-transform: uppercase;
-    padding-top: 70px;
-    padding-bottom: 37px;
+    margin-bottom: 37px;
 }
 
 .about__text {
@@ -306,14 +314,12 @@ ul li {
 }
 
 .about__btn {
-    width: 168px;
+    padding: 18px 40px;
 }
 
 .footer {
     position: relative;
-    height: 146px;
-    width: 1140px;
-    display: inline-block;
+    min-height: 146px;
     vertical-align: top;
     border-top: rgba(255, 255, 255, 0.1) solid 2px;
 }
