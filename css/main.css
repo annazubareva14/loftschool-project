@@ -123,6 +123,7 @@ ul li {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     cursor: pointer;
+    transition: 0.4s;
 }
 
 .button:hover {
