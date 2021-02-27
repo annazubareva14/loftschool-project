@@ -11,9 +11,6 @@ body {
     background: url(../img/background/hero.jpg) center top no-repeat, url(../img/background/bottom-pic.jpg) center bottom 300px no-repeat, #17191C;
 }
 
-.container {
-    
-}
 
 .about__content, .offer__item {
     box-sizing: border-box;
@@ -115,7 +112,7 @@ ul li {
 .button {
     width: 195px;
     height: 55px;
-    background: #FF3D00;
+    background: #FF5500;
     border: 0;
     border-radius: 35px;
     font-weight: bold;
@@ -193,6 +190,7 @@ ul li {
     border: 2px solid #FF5500;
     color: #FF5500;
     width: 198px;
+    transition: 0.4s;
 }
 
 .offer__btn:hover {
@@ -309,6 +307,7 @@ ul li {
 .about__btn {
     width: 168px;
 }
+
 .footer {
     position: relative;
     height: 146px;
