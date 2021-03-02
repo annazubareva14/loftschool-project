@@ -26,6 +26,7 @@ ul li {
 
 .wrapper {
     background: url(../img/background/hero.jpg) center top no-repeat, url(../img/background/bottom-pic.jpg) center bottom 300px no-repeat, #17191C;
+    display: flex;
 }
 
 .container {
@@ -35,24 +36,20 @@ ul li {
 }
 
 .header {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
     min-height: 120px;
 }
 
 .logo {
-    position: absolute;
-    top: 20px;
+    margin-top: 20px;
 }
 .nav {
-    display: inline-block;
-    position: absolute;
-    left: 442px;
-    top: 40px;
+    margin-top: 40px;
 }
 
 .nav__item {
-    display: inline-block;
-    vertical-align: middle;
+    display: inline-flex;
     margin-right: 50px;
 }
 
@@ -69,10 +66,9 @@ ul li {
 }
 
 .contacts {
-    position: absolute;
     text-align: right;
     right: 0;
-    top: 27px;
+    margin-top: 27px;
     line-height: 1.1;
 }
 
@@ -134,8 +130,8 @@ ul li {
 }
 
 .offer__item {
-    display: inline-block;
-    vertical-align: top;
+    display: inline-flex;
+    flex-wrap: wrap; 
     width: 362px;
     min-height: 476px;
     border-radius: 5px;
@@ -156,8 +152,13 @@ ul li {
     padding: 31px 19px 48px;
 }
 
+.offer__img {
+    position: absolute;
+}
+
 .offer__content {
     color: #666666;
+    margin-top: 80px;
 }
 
 .offer__subtitle {
@@ -206,6 +207,8 @@ ul li {
 }
 
 .news__item {
+    display: inline-flex;
+    flex-wrap: wrap; 
     width: 560px;
     display: inline-block;
     position: relative;
@@ -243,8 +246,7 @@ ul li {
 }
 
 .paginator__display, .paginator__list {
-    display: inline-block;
-    vertical-align: middle;
+    display: inline-flex;
 }
 
 .paginator__display {
@@ -317,27 +319,23 @@ ul li {
 }
 
 .footer {
-    position: relative;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
     min-height: 146px;
-    vertical-align: top;
     border-top: rgba(255, 255, 255, 0.1) solid 2px;
 }
 
-
 .footer .logo {
-    position: absolute;
-    top: 40px;
+    margin-top: 40px;
 }
 
 .footer .nav {
-    left: 330px;
-    top: 59px;
+    margin-top: 59px;
 }
 
 .media {
-    position: absolute;
-    right: 230px;
-    top: 53px;
+    margin-top: 53px;
 }
 
 .media__item {
@@ -350,7 +348,7 @@ ul li {
 }
 
 .footer .contacts {
-    top: 42px;
+    margin-top: 42px;
 }
 
 .contacts__calls {
