@@ -8,7 +8,6 @@ body {
     color: white;
     font-size: 16px;
     line-height: 1.42;
-    
 }
 
 
@@ -32,6 +31,7 @@ ul li {
 .container {
     width: 1150px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .header {
@@ -41,7 +41,6 @@ ul li {
 
 .logo {
     position: absolute;
-    left: 0;
     top: 20px;
 }
 .nav {
@@ -213,8 +212,9 @@ ul li {
     margin-right: 22px;
 }
 
-.news__background {
+.news__img {
     width: 100%;
+    height: 100%;
 }
 
 .news__item:last-child {
@@ -267,7 +267,6 @@ ul li {
 
 .paginator__item--active .paginator__link, .paginator__item:hover {
     display: inline-block;
-    vertical-align: middle;
     width: 32px;
     height: 32px;
     background: #FF5500;
