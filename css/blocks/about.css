@@ -1,0 +1,40 @@
+.about__img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about__content {
+    display: inline-block;
+    width: 786px;
+    height: 455px;
+    background: #FFFFFF;
+    color: black;
+    border-radius: 5px;
+    padding: 70px 81px;
+    margin: 97px 0 53px -136px;
+}
+
+.about__title {
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+}
+
+.about__text {
+    width: 502px;
+    font-size: 16px;
+    margin-bottom: 86px;
+}
+
+.about__text p {
+    margin-bottom: 20px;
+}
+
+.about__text p:last-child {
+    margin-bottom: 0;
+}
+
+.about__btn {
+    padding: 18px 40px;
+}

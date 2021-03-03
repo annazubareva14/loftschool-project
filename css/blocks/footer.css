@@ -1,0 +1,37 @@
+.footer {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 146px;
+    border-top: rgba(255, 255, 255, 0.1) solid 2px;
+}
+
+.footer .logo {
+    margin-top: 40px;
+}
+
+.footer .nav {
+    margin-top: 59px;
+}
+
+.media {
+    margin-top: 53px;
+}
+
+.media__item {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.media__item:last-child {
+    margin-right: 0;
+}
+
+.footer .contacts {
+    margin-top: 42px;
+}
+
+.contacts__calls {
+    font-size: 11px;
+    color: #9A9A9A;
+}
