@@ -1,6 +1,9 @@
+.about {
+    display: flex;
+}
+
 .about__img {
-    display: inline-block;
-    vertical-align: top;
+    align-self: flex-start;
 }
 
 .about__content {

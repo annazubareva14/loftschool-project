@@ -11,8 +11,11 @@
     margin-top: 40px;
 }
 
-.nav__item {
+.nav__list {
     display: inline-flex;
+}
+
+.nav__item {
     margin-right: 50px;
 }
 

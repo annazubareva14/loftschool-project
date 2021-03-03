@@ -1,5 +1,5 @@
 .news__list {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
 }
@@ -14,7 +14,6 @@
 .news__item {
     width: 560px;
     position: relative;
-    margin-right: 22px;
 }
 
 .news__img {
@@ -70,7 +69,8 @@
 
 
 .paginator__item--active .paginator__link, .paginator__item:hover {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     width: 32px;
     height: 32px;
     background: #FF5500;

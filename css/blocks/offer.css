@@ -35,11 +35,14 @@
     margin: 25px 0 15px;
 }
 
+.offer__features {
+    display: flex;
+    justify-content: space-between;
+}
+
 .offer__features-item {
     font-size: 16px;
-    display: inline-block;
     width: 123px;
-    margin-right: 57px;
 }
 
 .offer__features-item:last-child {
