@@ -67,6 +67,9 @@
     line-height: 32px;
 }
 
+.paginator__item:last-child {
+    margin-right: 0;
+}
 
 .paginator__item--active .paginator__link, .paginator__item:hover {
     display: flex;

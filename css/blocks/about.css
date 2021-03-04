@@ -7,13 +7,14 @@
 }
 
 .about__content {
-    display: inline-block;
-    width: 786px;
-    height: 455px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 455px;
     background: #FFFFFF;
     color: black;
     border-radius: 5px;
-    padding: 70px 81px;
+    padding: 70px 202px 70px 81px;
     margin: 97px 0 53px -136px;
 }
 
@@ -25,7 +26,6 @@
 }
 
 .about__text {
-    width: 502px;
     font-size: 16px;
     margin-bottom: 86px;
 }
