@@ -14,11 +14,11 @@
 }
 
 .media {
+    display: flex;
     margin-top: 53px;
 }
 
 .media__item {
-    display: inline-block;
     margin-right: 8px;
 }
 
