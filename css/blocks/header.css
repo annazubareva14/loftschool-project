@@ -12,7 +12,7 @@
 }
 
 .nav__list {
-    display: inline-flex;
+    display: flex;
 }
 
 .nav__item {
@@ -33,7 +33,6 @@
 
 .contacts {
     text-align: right;
-    right: 0;
     margin-top: 27px;
     line-height: 1.1;
 }
@@ -46,7 +45,6 @@
 }
 
 .contacts__workhours {
-    text-align: right;
     font-size: 13px;
     color: #FF3D00;
     text-decoration: underline;

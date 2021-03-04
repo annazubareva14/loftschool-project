@@ -1,6 +1,5 @@
 .footer {
-    display: inline-flex;
-    width: 100%;
+    display: flex;
     justify-content: space-between;
     min-height: 146px;
     border-top: rgba(255, 255, 255, 0.1) solid 2px;
