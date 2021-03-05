@@ -10,7 +10,7 @@ body {
     line-height: 1.42;
 }
 
-.about__content, .offer__item {
+.about__content, .offer__item, .services {
     box-sizing: border-box;
 }
 
@@ -26,6 +26,22 @@ ul li {
 .wrapper {
     background: url(../../img/background/hero.jpg) center top no-repeat, url(../../img/background/bottom-pic.jpg) center bottom 300px no-repeat, #17191C;
     display: flex;
+}
+
+.wrapper--top-line {
+    background: url(../../img/background/top-line.jpg) right top no-repeat, #17191C;
+}
+
+.wrapper--services {
+    background:#F4F5F5;
+}
+
+.wrapper--friends {
+    background:#E5E5E5;
+}
+
+.wrapper.wrapper--bottom-line {
+    background:#17191C;
 }
 
 .container {
