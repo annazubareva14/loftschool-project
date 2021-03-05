@@ -111,6 +111,11 @@
     margin: 69px 0 0;
 }
 
+.services .paginator__item--active, .paginator__item:hover{
+    background: #FF5300;
+    color: #fff;
+}
+
 .friends {
     min-height: 537px;
     background:#E5E5E5;
