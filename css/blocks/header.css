@@ -1,14 +1,12 @@
 .header {
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     min-height: 120px;
 }
 
-.logo {
-    margin-top: 20px;
-}
 .nav {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .nav__list {
@@ -33,7 +31,7 @@
 
 .contacts {
     text-align: right;
-    margin-top: 27px;
+    margin-top: 7px;
     line-height: 1.1;
 }
 

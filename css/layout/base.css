@@ -28,15 +28,15 @@ ul li {
     display: flex;
 }
 
-.wrapper--top-line {
+.wrapper.wrapper--top-line {
     background: url(../../img/background/top-line.jpg) right top no-repeat, #17191C;
 }
 
-.wrapper--services {
+.wrapper.wrapper--services {
     background:#F4F5F5;
 }
 
-.wrapper--friends {
+.wrapper.wrapper--friends {
     background:#E5E5E5;
 }
 
@@ -48,4 +48,8 @@ ul li {
     width: 1150px;
     margin: 0 auto;
     overflow: hidden;
+}
+
+.wrapper--bottom-line .footer {
+    border: none;
 }
