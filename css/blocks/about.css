@@ -7,9 +7,6 @@
 }
 
 .about__content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     min-height: 455px;
     background: #FFFFFF;
     color: black;

@@ -9,7 +9,8 @@
 }
 
 .offer__item {
-    width: 362px;
+    width: calc(100% / 3 - 21px);
+    /*width: 362px;*/
     min-height: 476px;
     border-radius: 5px;
     background: white;
