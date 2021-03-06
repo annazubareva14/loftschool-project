@@ -13,8 +13,8 @@
 }
 
 .page-title {
-    margin-top: 68px;
-    font-size: 40px;
+    margin: 55px 0 93px;
+    font-size: 36px;
     text-transform: uppercase;
     font-weight: 800;
 }
@@ -88,14 +88,15 @@
 
 .services__subtitle {
     font-size: 36px;
-    margin-bottom: 28px;
+    margin-bottom: 32px;
 }
 
 .services__text {
-    margin-bottom: 34px;
+    margin-bottom: 58px;
 }
 
 .services__btn {
+    padding: 16px;
     background: #F4F5F5;;
     border: 2px solid #FF5500;
     color: #FF5500;
@@ -108,7 +109,7 @@
 }
 
 .services .paginator {
-    margin: 69px 0 0;
+    margin: 65px 0 0;
 }
 
 .services .paginator__item--active, .paginator__item:hover{
@@ -117,12 +118,12 @@
 }
 
 .friends {
-    min-height: 537px;
+    min-height: 450px;
     background:#E5E5E5;
 }
 
 .friends__title {
-    margin: 88px 0 82px;
+    margin: 100px 0 82px;
     color: black;
     font-size: 48px;
     font-weight: 700;
@@ -137,7 +138,7 @@
 .friends__item {
     width: 250px;
     text-align: center;
-    padding-bottom: 61px;
+    margin-bottom: 61px;
 }
 
 .friends__link {
