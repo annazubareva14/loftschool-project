@@ -9,6 +9,7 @@
 @import url('./blocks/footer.css');
 
 .top {
+
     line-height: 1.1;
 }
 
@@ -65,6 +66,7 @@
 
 .services__img {
     width: 460px;
+    flex-shrink: 0;
 }
 
 .services__img--elem {
@@ -75,6 +77,7 @@
 .services__list {
     display: flex;
     flex-direction: column;
+    margin-bottom: 65px;
 }
 
 .services__item {
@@ -112,17 +115,13 @@
     color:#F4F5F5;;
 }
 
-.services .paginator {
-    margin: 65px 0 0;
-}
-
 .services .paginator__item--active, .paginator__item:hover{
     background: #FF5300;
     color: #fff;
 }
 
 .friends {
-    min-height: 450px;
+    min-height: 550px;
     background:#E5E5E5;
 }
 
@@ -137,6 +136,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: -61px;
 }
 
 .friends__item {
@@ -148,4 +148,102 @@
 .friends__link {
     width: 100%;
     height: 100%;
+}
+
+
+
+
+
+
+
+.feedbacks {
+    display: flex;
+    margin: 0 -27px 70px 0;
+}
+
+.feedback__list {
+    flex: 1;
+    flex-wrap: wrap;
+    margin: 0 27px -30px 0;
+}
+
+.feedback__item {
+    /*min-height: 583px;*/
+    background: #F4F5F5;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    padding: 50px 30px 32px;
+    position: relative;
+}
+
+.feedback__who {
+    display: flex;
+    margin-bottom: 27px;
+}
+
+.feedback__who--img {
+    flex-shrink: 0;
+    width: 142px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 22px;
+}
+
+.feedback__who--img-elem {
+    width: 100%;
+}
+
+.feedback__who--content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+}
+
+.feedback__name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.feedback__name:hover {
+    color: #2E77A4;
+    text-decoration: underline;
+}
+
+.feedback__btn {
+    padding: 10px 25px;
+    background: #F2D4C9;
+    color: black;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.feedback__subtitle {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.feedback__text {
+    font-size: 16px;
+    color: #818181;
+    line-height: 1.6;
+    margin-bottom: 55px;
+}
+
+.feedback__date {
+    position: absolute;
+    bottom: 32px;
+    padding-top: 24px;
+}
+
+.feedback .paginator {
+    color: black;
+}
+
+.paginator__item--active .paginator__link {
+    color: white;
 }

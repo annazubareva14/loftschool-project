@@ -1,7 +1,12 @@
+.news {
+    margin-bottom: 145px;
+}
+
 .news__list {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
+    margin-bottom: 44px;
 }
 
 .news__subtitle {
@@ -43,7 +48,6 @@
 
 .paginator {
     text-align: center;
-    margin: 44px 0 145px;
 }
 
 .paginator__display, .paginator__list {
@@ -69,6 +73,10 @@
 
 .paginator__item:last-child {
     margin-right: 0;
+}
+
+.paginator__link {
+    display: block;
 }
 
 .paginator__item--active .paginator__link, .paginator__item:hover {

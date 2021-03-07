@@ -25,22 +25,21 @@ ul li {
 
 .wrapper {
     background: url(../../img/background/hero.jpg) center top no-repeat, url(../../img/background/bottom-pic.jpg) center bottom 300px no-repeat, #17191C;
-    display: flex;
 }
 
-.wrapper.wrapper--top-line {
+.top--line {
     background: url(../../img/background/top-line.jpg) right top no-repeat, #17191C;
 }
 
-.wrapper.wrapper--services {
+.services {
     background:#F4F5F5;
 }
 
-.wrapper.wrapper--friends {
+.friends {
     background:#E5E5E5;
 }
 
-.wrapper.wrapper--bottom-line {
+.footer {
     background:#17191C;
 }
 
@@ -50,6 +49,12 @@ ul li {
     overflow: hidden;
 }
 
-.wrapper--bottom-line .footer {
+.border-none {
     border: none;
+}
+
+.feedback {
+    background: #fff;
+    display: flex;
+    padding: 94px 0;
 }

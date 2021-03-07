@@ -1,5 +1,6 @@
 .about {
     display: flex;
+    margin-bottom: 53px;
 }
 
 .about__img {
@@ -12,7 +13,7 @@
     color: black;
     border-radius: 5px;
     padding: 70px 202px 70px 81px;
-    margin: 97px 0 53px -136px;
+    margin: 97px 0 0 -136px;
 }
 
 .about__title {
