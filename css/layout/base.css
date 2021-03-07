@@ -49,10 +49,6 @@ ul li {
     overflow: hidden;
 }
 
-.border-none {
-    border: none;
-}
-
 .feedback {
     background: #fff;
     display: flex;
