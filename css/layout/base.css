@@ -27,7 +27,7 @@ ul li {
     background: url(../../img/background/hero.jpg) center top no-repeat, url(../../img/background/bottom-pic.jpg) center bottom 300px no-repeat, #17191C;
 }
 
-.top--line {
+.top-line {
     background: url(../../img/background/top-line.jpg) right top no-repeat, #17191C;
 }
 
@@ -57,4 +57,53 @@ ul li {
     background: #fff;
     display: flex;
     padding: 94px 0;
+}
+
+.discount {
+    background: url(../../img/background/party.png) top right 200px no-repeat, #373737;
+    display: flex;
+}
+
+
+.paginator {
+    text-align: center;
+}
+
+.paginator__display, .paginator__list {
+    display: inline-flex;
+}
+
+.paginator__display {
+    margin-right: 25px;
+    width: 125px;
+    justify-content: space-between;
+}
+
+.paginator__item {
+    margin-right: 5px;
+    font-weight: bold;
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border-radius: 50%;
+    position: relative;
+    line-height: 32px;
+}
+
+.paginator__item:last-child {
+    margin-right: 0;
+}
+
+.paginator__link {
+    display: block;
+}
+
+.paginator__item--active .paginator__link, .paginator__item:hover {
+    display: flex;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: #FF5500;
+    border-radius: 50%;
+    line-height: 32px;
 }

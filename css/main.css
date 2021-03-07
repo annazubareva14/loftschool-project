@@ -7,148 +7,9 @@
 @import url('./blocks/news.css');
 @import url('./blocks/about.css');
 @import url('./blocks/footer.css');
+@import url('./blocks/services.css');
 
-.top {
 
-    line-height: 1.1;
-}
-
-.page-title {
-    margin: 55px 0 93px;
-    font-size: 36px;
-    text-transform: uppercase;
-    font-weight: 800;
-}
-
-.wrapper .services {
-    background: #F4F5F5;
-}
-
-.breadcrumps {
-    margin-bottom: 27px;
-}
-
-.breadcrumps__list {
-    display: flex;
-    align-items: center;
-}
-
-.breadcrumps__item {
-    display: flex;
-    align-items: center;
-    margin-right: 5px;
-}
-
-.breadcrumps__link {
-    color: #9A9A9A;
-    font-size: 14px;
-}
-
-.breadcrumps__item .breadcrumps__item--active {
-    font-weight: 600;
-}
-
-.breadcrumps__item:after {
-    content: "/";
-    color: #9A9A9A;
-    margin-left: 5px;
-}
-
-.breadcrumps__item:last-child:after {
-    display: none;
-}
-
-.services {
-    background: #F4F5F5;
-    color: black;
-    padding: 94px 0 70px;
-}
-
-.services__img {
-    width: 460px;
-    flex-shrink: 0;
-}
-
-.services__img--elem {
-    width: 100%;
-    height: 100%;
-}
-
-.services__list {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 65px;
-}
-
-.services__item {
-    display: flex;
-    margin-bottom: 49px;
-}
-
-.services__item:last-child {
-    margin-bottom: 0;
-}
-
-.services__content {
-    padding: 10px 0 0 58px;
-}
-
-.services__subtitle {
-    font-size: 36px;
-    margin-bottom: 32px;
-}
-
-.services__text {
-    margin-bottom: 58px;
-}
-
-.services__btn {
-    padding: 16px;
-    background: #F4F5F5;;
-    border: 2px solid #FF5500;
-    color: #FF5500;
-    min-width: 198px;
-}
-
-.services__btn:hover {
-    background: #FF5500;
-    color:#F4F5F5;;
-}
-
-.services .paginator__item--active, .paginator__item:hover{
-    background: #FF5300;
-    color: #fff;
-}
-
-.friends {
-    min-height: 550px;
-    background:#E5E5E5;
-}
-
-.friends__title {
-    margin: 100px 0 82px;
-    color: black;
-    font-size: 48px;
-    font-weight: 700;
-}
-
-.friends__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: -61px;
-}
-
-.friends__item {
-    width: 250px;
-    text-align: center;
-    margin-bottom: 61px;
-}
-
-.friends__link {
-    width: 100%;
-    height: 100%;
-}
 
 
 
@@ -207,6 +68,16 @@
     margin-bottom: 5px;
 }
 
+.feedback__name:after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: url(../img/media/vk-blue.png);
+    position: relative;
+    display: inline-block;
+    top: 5px;
+}
+
 .feedback__name:hover {
     color: #2E77A4;
     text-decoration: underline;
@@ -219,6 +90,7 @@
     font-size: 13px;
     font-weight: 400;
     text-transform: none;
+    letter-spacing: normal;
 }
 
 .feedback__subtitle {
@@ -246,4 +118,28 @@
 
 .paginator__item--active .paginator__link {
     color: white;
+}
+
+.discount {
+    min-height: 363px;
+}
+
+.discount__title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.discount__title {
+    display: flex;
+    font-size: 48px;
+    font-weight: 700;
+    width: 560px;
+    min-height: 363px;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.discount__amount {
+    display: contents;
+    color: #FF5300;
 }

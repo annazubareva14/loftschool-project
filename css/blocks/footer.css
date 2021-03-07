@@ -6,6 +6,14 @@
     border-top: rgba(255, 255, 255, 0.1) solid 2px;
 }
 
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    min-height: 146px;
+    border-top: rgba(255, 255, 255, 0.1) solid 2px;
+}
+
 .footer .logo {
     margin-top: 40px;
 }
