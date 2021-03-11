@@ -11,7 +11,10 @@
     justify-content: space-between;
     /*align-items: center;*/
     min-height: 146px;
+    border-top: none;
 }
+
+
 
 .footer .logo {
     margin-top: 40px;
@@ -27,12 +30,39 @@
 }
 
 .media__item {
+
     margin-right: 8px;
 }
 
 .media__item:last-child {
     margin-right: 0;
 }
+
+.media__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    
+}
+
+.media__item--telegram {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    background: url(../img/)  -122px -66px;
+}
+
+/*.media__item--telegram .media__link:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url("./img/media/css_sprites.png")  -122px -66px;
+ }*/
 
 .footer .contacts {
     margin-top: 42px;

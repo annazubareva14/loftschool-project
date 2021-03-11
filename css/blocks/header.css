@@ -6,10 +6,9 @@
 }
 
 .header .container {
-    padding-top: 20px;
     display: flex;
     justify-content: space-between;
-    min-height: 120px;
+    min-height: 140px;
 }
 
 .nav {
@@ -51,7 +50,59 @@
 
 .contacts__workhours {
     font-size: 13px;
-    color: #FF3D00;
+    color: #fff;
     text-decoration: underline;
     font-display: right;
+    position: relative;
 }
+
+.contacts__workhours:hover {
+    color: #FF3D00;
+}
+
+.contacts__workhours:hover .dropdown {
+    display: block;
+ }
+
+.dropdown {
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    top: 100%;
+    background: #FFF;
+    top: 170%;
+    right: 0;
+    text-align: left;
+    padding: 15px 19px;
+    box-sizing: border-box;
+    font-weight: 600;
+    opacity: 0.8;
+    border-radius: 4px;
+    color: black;
+    display: none;
+}
+
+.dropdown:before {
+    content: "";
+    display: block;
+    height: 60px;
+    left: 0;
+    right: 0;
+    top: -15px;
+    position: absolute;
+
+ }
+
+ .dropdown:after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 60px;
+    right: 50px;
+    border: 10px solid transparent;
+    width: 0px;
+    height: 0px;
+    border-bottom-color: #fff;
+    top: -10px;
+    border-top-width: 0;
+ }
