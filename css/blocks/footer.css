@@ -14,8 +14,6 @@
     border-top: none;
 }
 
-
-
 .footer .logo {
     margin-top: 40px;
 }
@@ -49,20 +47,80 @@
     width: 36px;
     height: 36px;
     position: relative;
-    background: url(../img/)  -122px -66px;
+    
 }
 
-/*.media__item--telegram .media__link:after {
+.media__item--telegram .media__link:after {
     content: '';
     display: block;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 36px;
     height: 36px;
-    background: url("./img/media/css_sprites.png")  -122px -66px;
- }*/
+    background: url(../../img/media/css_sprites.png) -122px -10px;
+}
+
+.media__item--telegram .media__link:hover:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/media/css_sprites.png) -122px -66px;
+}
+
+.media__vk .media__link:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/media/css_sprites.png) -10px -122px;
+}
+
+.media__vk .media__link:hover:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/media/css_sprites.png) -66px -122px;
+}
+
+.media__facebook .media__link:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/media/css_sprites.png) -10px -10px;
+}
+
+.media__facebook .media__link:hover:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/media/css_sprites.png) -66px -10px;
+}
+
+.media__instagram .media__link:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/media/css_sprites.png) -10px -66px;
+}
+
+.media__instagram .media__link:hover:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/media/css_sprites.png) -66px -66px;
+}
 
 .footer .contacts {
     margin-top: 42px;
