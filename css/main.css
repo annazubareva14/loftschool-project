@@ -108,7 +108,6 @@
 .feedback__date {
     position: absolute;
     bottom: 32px;
-    padding-top: 24px;
 }
 
 .feedback .paginator {
@@ -182,7 +181,8 @@
     margin-right: 0;
 }
 
-.form__input:active {
+.form__input:focus {
+    outline: none;
     border: 1px solid #ccc;
 }
 
@@ -190,11 +190,12 @@
     width: 100%;
     min-height: 235px;
     font-size: 18px;
-    padding-top: 30px;
+    padding: 30px;
     margin-bottom: 23px;
 }
 
-.form__textarea:active {
+.form__textarea:focus {
+    outline: none;
     border: 1px solid #ccc;
 }
 
