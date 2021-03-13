@@ -56,6 +56,7 @@
 
 .feedback__who--content {
     align-self: center;
+    margin-bottom: -5px;
 }
 
 .feedback__name {
@@ -90,6 +91,11 @@
     text-transform: none;
     letter-spacing: normal;
     border-radius: 35px;
+    margin: 0 10px 5px 0;
+}
+
+.tag:last-child {
+    margin-right: 0;
 }
 
 .feedback__subtitle {
@@ -201,7 +207,7 @@
 
 .form__elements-check {
     display: flex;
-    margin-bottom: 33px;
+    margin-bottom: 27px;
 }
 
 .elements__subtitle {
@@ -235,6 +241,7 @@
 
 .tag__checkbox {
     background: #E7E7E7;
+    margin: 0;
 }
 
 .element__checkbox:checked ~ .tag__checkbox {
