@@ -1,0 +1,48 @@
+.welcome {
+    background: url(../../img/background/bg.png) no-repeat center / cover;
+    height: 100vh;
+    position: relative;
+}
+
+.welcome__container {
+    background: url(../../img/background/rec.png) no-repeat center;
+    height: 100vh;
+}
+
+.elements {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.welcome__logo {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.elements--anim {
+    animation: video .9s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes video {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.1) rotate(30deg);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) rotate(-10deg);
+    }
+
+    70% {
+        transform: translate(-50%, -50%) rotate(3deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}

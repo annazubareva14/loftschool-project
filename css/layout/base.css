@@ -10,7 +10,7 @@ body {
     line-height: 1.42;
 }
 
-.about__content, .offer__item, .services {
+.about__content, .offer__item, .services, .footer, .input {
     box-sizing: border-box;
 }
 
@@ -31,75 +31,10 @@ ul li {
     background: url(../../img/background/top-line.jpg) right top no-repeat, #17191C;
 }
 
-.services {
-    background:#F4F5F5;
-}
-
-.friends {
-    background:#E5E5E5;
-}
-
-.footer {
-    background:#17191C;
-}
-
 .container {
     width: 1150px;
     margin: 0 auto;
     overflow: hidden;
 }
 
-.feedback {
-    background: #fff;
-    display: flex;
-    padding: 94px 0;
-}
 
-.discount {
-    background: url(../../img/background/party.png) top right 200px no-repeat, #373737;
-    display: flex;
-}
-
-
-.paginator {
-    text-align: center;
-}
-
-.paginator__display, .paginator__list {
-    display: inline-flex;
-}
-
-.paginator__display {
-    margin-right: 25px;
-    width: 125px;
-    justify-content: space-between;
-}
-
-.paginator__item {
-    margin-right: 5px;
-    font-weight: bold;
-    width: 32px;
-    height: 32px;
-    background: transparent;
-    border-radius: 50%;
-    position: relative;
-    line-height: 32px;
-}
-
-.paginator__item:last-child {
-    margin-right: 0;
-}
-
-.paginator__link {
-    display: block;
-}
-
-.paginator__item--active .paginator__link, .paginator__item:hover {
-    display: flex;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    background: #FF5500;
-    border-radius: 50%;
-    line-height: 32px;
-}

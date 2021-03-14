@@ -10,7 +10,6 @@
 
 .offer__item {
     width: calc(100% / 3 - 21px);
-    /*width: 362px;*/
     min-height: 476px;
     border-radius: 5px;
     background: white;
@@ -24,7 +23,6 @@
     border: 5px solid #cccccc;
     padding: 31px 19px 48px;
 }
-
 
 .offer__content {
     color: #666666;
@@ -58,14 +56,3 @@
     margin: 25px 0 29px;
 }
 
-.offer__btn {
-    background: white;
-    border: 2px solid #FF5500;
-    color: #FF5500;
-    min-width: 198px;
-}
-
-.offer__btn:hover {
-    background: #FF5500;
-    color: white;
-}
