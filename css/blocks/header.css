@@ -67,8 +67,7 @@
 .dropdown {
     position: absolute;
     width: 160px;
-    height: 60px;
-    top: 100%;
+    min-height: 60px;
     background: #FFF;
     top: 170%;
     right: 0;
@@ -85,7 +84,7 @@
 .dropdown:before {
     content: "";
     display: block;
-    height: 60px;
+    height: 15px;
     left: 0;
     right: 0;
     top: -15px;
@@ -97,7 +96,6 @@
     content: "";
     position: absolute;
     display: block;
-    height: 60px;
     right: 50px;
     border: 10px solid transparent;
     width: 0px;
